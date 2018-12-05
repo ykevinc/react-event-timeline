@@ -79,6 +79,9 @@ class TimelineEvent extends Component {
       subtitleStyle,
       orientation,
       collapsible,
+      contentStyle,
+      cardHeaderStyle,
+      showContent,
       ...otherProps
     } = this.props
     const leftOrRightEventStyling = orientation === 'right' ? { ...s['event--right'] } : { ...s['event--left'] }
